@@ -49,21 +49,29 @@ export default {
     width: 300px;
     height: 80%;
     margin: 0 auto;
-    padding: 20px;
     border: 1px solid #ccc;
+    background-color: #ffffff;
     border-radius: 5px;
+    padding: 30px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 input {
-    width: 80%;
+    width: 100%;
     padding: 10px;
-    margin: 5px 0;
+    margin: 1px 0;
     border-radius: 5px;
     border: 1px solid #ccc;
+    
 }
 
 button {
-    width: 88%;
+    width: 48%;
     padding: 10px;
     margin: 5px 0;
     border-radius: 5px;

@@ -30,7 +30,7 @@ const routes = [
     {
         name: 'UpdateRestaurant',
         component: UpdateRestaurant,
-        path: '/updaterestaurant'
+        path: '/updaterestaurant/:id'
     }
 ]
 const router = createRouter({

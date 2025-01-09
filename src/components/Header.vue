@@ -1,5 +1,6 @@
 <template>
     <div class="nav">
+<img src="../assets/blogo.png" alt="logo" width="50" height="50">
 <router-link to="/">Home</router-link>
 <router-link to="/addrestaurant">Add Restaurant</router-link>
 <router-link to="/updaterestaurant">Update Restaurant</router-link>
@@ -20,23 +21,31 @@ export default {
 
 <style>
     .nav {
-        display:flex;
-        justify-content:left;
+        display: flex;
+        align-items: center; /* Center vertically */
+        justify-content: left;
         background-color: #db005b;
         color: white;
-        padding: 5px;
+        padding: 10px 20px; /* Increase padding for better spacing */
     }
 
-    a {
+    .nav img {
+        margin-right: 15px; /* Space between logo and links */
+    }
+
+    .nav a {
+        font-size: 1.2rem; /* Increase font size */
         color: white;
         text-decoration: none;
         transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition effect */
-        padding: 10px;
-        padding-left: 20px;
+        padding: 10px 15px; /* Add padding for better click area */
+        margin: 0 5px; /* Space between links */
     }
 
-    a:hover {
+    .nav a:hover {
         color: #063822;
         background-color: white;
+        border-radius: 5px; /* Rounded corners for hover effect */
     }
 </style>
+
